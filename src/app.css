@@ -1,0 +1,166 @@
+/* @import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography'; */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: var(--color-background);
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+	font-family: 'Suisse';
+	font-style: normal;
+	font-weight: 500;
+	src:
+		url('/fonts/fonnts.com-Suisse_Intl_Medium.ttf') format('truetype'),
+		url('/fonts/fonnts.com-Suisse_Intl_Regular.ttf') format('truetype');
+}
+
+html,
+body {
+	min-height: 100%;
+	width: 100%;
+	background-color: var(--color-background);
+}
+
+* {
+	font-family: Suisse !important;
+}
+
+:root {
+	--color-primary: #eceae9;
+	--color-secondary: #afadac;
+	--color-background: #1b1817;
+	--color-button-text: #fafafa;
+	--gradient-button: linear-gradient(90deg, #ffa33a 0%, #ff8516 0%, #ff5500 100%);
+	--container-padding-mobile: 24px;
+	--container-padding-tablet: 32px;
+	--container-padding-desktop: 40px;
+	--container-padding-large: 56px;
+}
